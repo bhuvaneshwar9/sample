@@ -5,7 +5,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Get code
-              uses: actions/chechout@v4
+              uses: actions/chechout@v3
             - name: Install NodeJS
               uses: actions/setup-node@v3
               with:
